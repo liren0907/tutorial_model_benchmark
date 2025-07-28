@@ -1,0 +1,11 @@
+[project]
+name = "yolo_model_benchmark"
+version = "0.1.0"
+description = "A comprehensive YOLOv8 model benchmarking tool that measures performance metrics including FPS, latency, memory usage, parameters, and FLOPs across different YOLOv8 model variants (nano, small, medium, large, xlarge)."
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "opencv-python",
+    "ultralytics",
+]
